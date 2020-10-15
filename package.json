@@ -1,0 +1,27 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "Examen primer parcial ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidWelchez/Examen.git"
+  },
+  "keywords": [
+    "examen",
+    "node",
+    "express",
+    "handlebars"
+  ],
+  "author": "David Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidWelchez/Examen/issues"
+  },
+  "homepage": "https://github.com/DavidWelchez/Examen#readme"
+}
