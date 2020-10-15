@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./index.js"
-
   },
   "repository": {
     "type": "git",
@@ -23,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/DavidWelchez/Examen/issues"
   },
-  "homepage": "https://github.com/DavidWelchez/Examen#readme"
+  "homepage": "https://github.com/DavidWelchez/Examen#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
