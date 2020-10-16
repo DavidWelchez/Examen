@@ -18,11 +18,9 @@ exports.calcularMetodo = (capital, tasaInteres, plazo) => {
   
     while (mes != plazo) {
      
-capitalFinal = capital * (1+tasaInteresDecimal) ** -plazo;
+capitalFinal = capital * (1+tasaInteresDecimal) ** plazo;
 
-capitalFinal = capitalFinal / tasaInteres;
-
-interes = tasaInteres + tasaInteresDecimal;
+interes = tasaInteres ;
       // Actualizar el mes (período)
       mes++;
   
