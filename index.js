@@ -18,6 +18,11 @@ app.engine("hbs", exphbs({ defaultLayout: "main", extname: ".hbs" }));
 app.set("view engine", "hbs")
 
 
+// Crear  ruta para /
+
+app.get("/", (req, res, next) => {
+  res.render("formulario_interes");
+});
 
 
 
