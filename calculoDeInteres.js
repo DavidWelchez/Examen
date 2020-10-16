@@ -1,7 +1,4 @@
-// Calcula las cuotas basadas en el método francés
-// couta = (capital * i) / (1 - (i + 1) ^ -n)
-// i = interés
-// n = períodos (en meses)
+
 exports.calcularMetodo = (capital, tasaInteres, plazo) => {
     
     let mes = 0;
